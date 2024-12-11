@@ -59,7 +59,7 @@ p {
 }
     
 a {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     line-height: inherit;
     -webkit-transition: opacity 0.3s ease-out;
@@ -972,6 +972,88 @@ blockquote {
     left: 50%;
 }
 
+/* Contenedor para centrar el formulario */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Fondo del contenedor */
+  }
+  
+  .contacto {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .contacto h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .contacto .group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contacto label {
+    font-size: 14px;
+    color: #555555;
+    font-weight: 500;
+  }
+  
+  .contacto input[type="text"],
+  .contacto input[type="tel"],
+  .contacto input[type="email"],
+  .contacto textarea {
+    border: 1px solid #dddddd;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #f9f9f9;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .contacto input[type="text"]:focus,
+  .contacto input[type="tel"]:focus,
+  .contacto input[type="email"]:focus,
+  .contacto textarea:focus {
+    border-color: #333333;
+    outline: none;
+  }
+  
+  .contacto textarea {
+    resize: none;
+  }
+  
+  .contacto .btnn {
+    background: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .contacto .btnn:hover {
+    background: #555555;
+  }
+  
+  .contacto input[type="hidden"] {
+    display: none;
+  }
 /**
  * Featherlight – ultra slim jQuery lightbox
  * Version 1.3.3 - http://noelboss.github.io/featherlight/

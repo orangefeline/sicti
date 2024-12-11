@@ -114,7 +114,9 @@
                             <li>
                                 <a class="colornav" href="#services"><b>Servicios</b></a>
                             </li>
-                            
+                            <li>
+                                <a class="colornav" href="#contact"><b>Contacto</b></a>
+                            </li>
                             <li>
                                 <a class="colornav" href="#clients"><b>Clientes</b></a>
                             </li>
@@ -144,7 +146,7 @@
                 </div>
 
                 <!--Call to Action-->
-                <a href="#" class="button">START CREATING TODAY</a>
+                <a href="mailto:roy.anotherman@gmail.com" class="button">EMPIEZA A CREAR HOY</a>
                 <!--End Call to Action-->
 
             </div>
@@ -368,10 +370,31 @@
 
         </div>
         <!--End of Content Section-->
-
-       
-
-
+        <div id="contact" class="contact">
+            <div  class="contacto">
+        <form  action="https://formsubmit.co/royorangecat@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="group">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" placeholder="Nombre Completo">
+      
+              <label for="phone">Telefono</label>
+              <input type="tel" name="phone" id="phone" placeholder="Numero">
+      
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Email">
+      
+              <label for="message">Mensaje</label>
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje..."></textarea>
+      
+              <input class="btnn" type="submit" value="Enviar">
+      
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+              <input type="hidden" name="_captcha" value="false">
+            
+          </form>     
+        </div>
+</div>
             </div>
 
         </aside>
