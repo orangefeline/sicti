@@ -1055,7 +1055,7 @@ blockquote {
     display: none;
   }
   /* Estilos responsivos */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .contacto {
       padding: 15px 20px; /* Reducir el padding para móviles */
     }
@@ -1078,7 +1078,7 @@ blockquote {
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 800px) {
     .contacto {
       max-width: 100%; /* Permitir que use todo el ancho disponible */
       padding: 10px 15px;
