@@ -1054,6 +1054,53 @@ blockquote {
   .contacto input[type="hidden"] {
     display: none;
   }
+  /* Estilos responsivos */
+@media (max-width: 768px) {
+    .contacto {
+      padding: 15px 20px; /* Reducir el padding para móviles */
+    }
+  
+    .contacto h2 {
+      font-size: 20px; /* Reducir tamaño de fuente del título */
+    }
+  
+    .contacto input[type="text"],
+    .contacto input[type="tel"],
+    .contacto input[type="email"],
+    .contacto textarea {
+      font-size: 12px; /* Reducir tamaño de fuente de los campos */
+      padding: 8px 10px; /* Ajustar el padding */
+    }
+  
+    .contacto .btnn {
+      font-size: 12px; /* Reducir tamaño de fuente del botón */
+      padding: 8px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contacto {
+      max-width: 100%; /* Permitir que use todo el ancho disponible */
+      padding: 10px 15px;
+    }
+  
+    .contacto h2 {
+      font-size: 18px;
+    }
+  
+    .contacto input[type="text"],
+    .contacto input[type="tel"],
+    .contacto input[type="email"],
+    .contacto textarea {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .contacto .btnn {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
 /**
  * Featherlight – ultra slim jQuery lightbox
  * Version 1.3.3 - http://noelboss.github.io/featherlight/
